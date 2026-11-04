@@ -1,0 +1,21 @@
+{
+  "version": "decoybench-neutral-fixtures-v1.0",
+  "purpose": "Fresh fictional interface requests. No private qualification or guardrail corpus is included.",
+  "model_row": {
+    "id": "Unique ASCII identifier,1 to80 letters/numbers/underscore/hyphen",
+    "category": "ASCII category, same identifier vocabulary",
+    "prompt": "UTF-8 user request,1 to16384 bytes",
+    "allowed_interfaces": "Optional lowercase word list used by the lexical interface heuristic"
+  },
+  "wire_row": {
+    "id": "Case identifier",
+    "kind": "unknown_path, rejected_form, unsupported_method or operational_unavailable",
+    "method": "HTTP method",
+    "target": "Origin-relative path, no CR/LF",
+    "headers": "Object, do not include credentials",
+    "body_b64": "Base64 request bytes, not a redaction mechanism",
+    "expectation": {"status": "Expected deterministic HTTP status"}
+  },
+  "identity_transform": "Device names, vendor names, real endpoints and credentials are omitted. Generic surfaces and route shapes are taken from the fictional application's declared interface. Add your own persona and corpus explicitly.",
+  "release_status": "Private release candidate pending the owner's corpus/IP and exact-file approval. No publication performed."
+}
