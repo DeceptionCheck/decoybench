@@ -1,0 +1,376 @@
+{
+  "schema": "ingress-v1",
+  "start_utc": "20261104T013316.960485Z",
+  "dry_run": true,
+  "started_utc": "2026-11-04T01:33:16.960186+00:00",
+  "completed_utc": "2026-11-04T01:33:18.430026+00:00",
+  "python_version": "3.11.18 (main, Oct 26 2026, 15:28:55) [GCC 13.3.0]",
+  "platform": "linux",
+  "code_sha256": {
+    "run_ingress.py": "f56bd69e11f434cfe55c87ac01032d9403109ae6437cc053fb64891a2c2160e1",
+    "measure.py": "4d6f916e59ddd48dea10e165dc57c014271fdee9c18bb0d4bb2f0831d8a685e7",
+    "corpus.py": "da13c25d09488543b3b494d244f5718e473daba98035672e64648852d251776d",
+    "artifacts.py": "0d9feecf7efd93447347eefe28b670a9a9c70e74a2ab780477bd89325c68fac1",
+    "privacy.py": "2e0295de2edea39cbf55b29929413300d74026fadb22cfed1c991117006a3179"
+  },
+  "mode_label": "off",
+  "model_enabled_verified": false,
+  "qualification": "local deterministic fixture only",
+  "session_contract": "server-issued cookies retained per worker; research IDs are correlation only",
+  "cookies": "per-client",
+  "deployment_denylist_loaded": false,
+  "dry_run_backend": "neutral-standalone-wire-fixture",
+  "cases_sha256": "3cc79f1d2afd968c970b095d09437e4803c868123ec6a0038783051862c1eb98",
+  "code_commit": null,
+  "fingerprints": {
+    "brain/config/PROFILE.json": null,
+    "brain/config/PROMPTS.json": null,
+    "brain/integration/validator_v2.py": null
+  },
+  "conditions": [
+    {
+      "telemetry_coverage": {
+        "complete": true,
+        "invalid_rows": [],
+        "deferred_bytes": 0
+      },
+      "telemetry_input_problem": false,
+      "requests": 100,
+      "completed": 100,
+      "failures": 0,
+      "p50_s": 0.001115827999967678,
+      "p95_s": 0.0022244619999582937,
+      "status_counts": {
+        "404": 50,
+        "401": 18,
+        "405": 16,
+        "403": 16
+      },
+      "throttled_429": 0,
+      "functional_completed": 100,
+      "functional_p50_s": 0.001115827999967678,
+      "functional_p95_s": 0.0022244619999582937,
+      "max_s": 0.0038796860000047673,
+      "deadline_misses_4s": 0,
+      "forbidden_responses": 0,
+      "credential_responses": 0,
+      "memo_mismatches": 0,
+      "status_mismatches": 0,
+      "by_kind": {
+        "unknown_path": {
+          "requests": 50,
+          "completed": 50,
+          "distinct_bodies": 1,
+          "throttled_429": 0,
+          "functional_completed": 50,
+          "distinct_bodies_per_100_requests": 2.0,
+          "fallback_rate": 0.0,
+          "telemetry_events": 50,
+          "response_sources": {
+            "deterministic": 50
+          }
+        },
+        "rejected_form": {
+          "requests": 18,
+          "completed": 18,
+          "distinct_bodies": 1,
+          "throttled_429": 0,
+          "functional_completed": 18,
+          "distinct_bodies_per_100_requests": 5.555555555555555,
+          "fallback_rate": 0.0,
+          "telemetry_events": 18,
+          "response_sources": {
+            "deterministic": 18
+          }
+        },
+        "unsupported_method": {
+          "requests": 16,
+          "completed": 16,
+          "distinct_bodies": 1,
+          "throttled_429": 0,
+          "functional_completed": 16,
+          "distinct_bodies_per_100_requests": 6.25,
+          "fallback_rate": 0.0,
+          "telemetry_events": 16,
+          "response_sources": {
+            "deterministic": 16
+          }
+        },
+        "operational_unavailable": {
+          "requests": 16,
+          "completed": 16,
+          "distinct_bodies": 1,
+          "throttled_429": 0,
+          "functional_completed": 16,
+          "distinct_bodies_per_100_requests": 6.25,
+          "fallback_rate": 0.0,
+          "telemetry_events": 16,
+          "response_sources": {
+            "deterministic": 16
+          }
+        }
+      },
+      "clients": 1,
+      "mode_label": "off",
+      "correlation": "psz-bench-dec50440f19b490fa99a11ddd51b4f07"
+    },
+    {
+      "telemetry_coverage": {
+        "complete": true,
+        "invalid_rows": [],
+        "deferred_bytes": 0
+      },
+      "telemetry_input_problem": false,
+      "requests": 100,
+      "completed": 100,
+      "failures": 0,
+      "p50_s": 0.002251810000018395,
+      "p95_s": 0.003194915999984005,
+      "status_counts": {
+        "404": 50,
+        "401": 18,
+        "405": 16,
+        "403": 16
+      },
+      "throttled_429": 0,
+      "functional_completed": 100,
+      "functional_p50_s": 0.002251810000018395,
+      "functional_p95_s": 0.003194915999984005,
+      "max_s": 0.003967027999976835,
+      "deadline_misses_4s": 0,
+      "forbidden_responses": 0,
+      "credential_responses": 0,
+      "memo_mismatches": 0,
+      "status_mismatches": 0,
+      "by_kind": {
+        "unknown_path": {
+          "requests": 50,
+          "completed": 50,
+          "distinct_bodies": 1,
+          "throttled_429": 0,
+          "functional_completed": 50,
+          "distinct_bodies_per_100_requests": 2.0,
+          "fallback_rate": 0.0,
+          "telemetry_events": 50,
+          "response_sources": {
+            "deterministic": 50
+          }
+        },
+        "rejected_form": {
+          "requests": 18,
+          "completed": 18,
+          "distinct_bodies": 1,
+          "throttled_429": 0,
+          "functional_completed": 18,
+          "distinct_bodies_per_100_requests": 5.555555555555555,
+          "fallback_rate": 0.0,
+          "telemetry_events": 18,
+          "response_sources": {
+            "deterministic": 18
+          }
+        },
+        "unsupported_method": {
+          "requests": 16,
+          "completed": 16,
+          "distinct_bodies": 1,
+          "throttled_429": 0,
+          "functional_completed": 16,
+          "distinct_bodies_per_100_requests": 6.25,
+          "fallback_rate": 0.0,
+          "telemetry_events": 16,
+          "response_sources": {
+            "deterministic": 16
+          }
+        },
+        "operational_unavailable": {
+          "requests": 16,
+          "completed": 16,
+          "distinct_bodies": 1,
+          "throttled_429": 0,
+          "functional_completed": 16,
+          "distinct_bodies_per_100_requests": 6.25,
+          "fallback_rate": 0.0,
+          "telemetry_events": 16,
+          "response_sources": {
+            "deterministic": 16
+          }
+        }
+      },
+      "clients": 2,
+      "mode_label": "off",
+      "correlation": "psz-bench-a4af308fec3545e8ab3c68b6c3c8ad35"
+    },
+    {
+      "telemetry_coverage": {
+        "complete": true,
+        "invalid_rows": [],
+        "deferred_bytes": 0
+      },
+      "telemetry_input_problem": false,
+      "requests": 100,
+      "completed": 100,
+      "failures": 0,
+      "p50_s": 0.004376325000009729,
+      "p95_s": 0.005962715999999091,
+      "status_counts": {
+        "404": 50,
+        "401": 18,
+        "403": 16,
+        "405": 16
+      },
+      "throttled_429": 0,
+      "functional_completed": 100,
+      "functional_p50_s": 0.004376325000009729,
+      "functional_p95_s": 0.005962715999999091,
+      "max_s": 0.00769102300000668,
+      "deadline_misses_4s": 0,
+      "forbidden_responses": 0,
+      "credential_responses": 0,
+      "memo_mismatches": 0,
+      "status_mismatches": 0,
+      "by_kind": {
+        "unknown_path": {
+          "requests": 50,
+          "completed": 50,
+          "distinct_bodies": 1,
+          "throttled_429": 0,
+          "functional_completed": 50,
+          "distinct_bodies_per_100_requests": 2.0,
+          "fallback_rate": 0.0,
+          "telemetry_events": 50,
+          "response_sources": {
+            "deterministic": 50
+          }
+        },
+        "rejected_form": {
+          "requests": 18,
+          "completed": 18,
+          "distinct_bodies": 1,
+          "throttled_429": 0,
+          "functional_completed": 18,
+          "distinct_bodies_per_100_requests": 5.555555555555555,
+          "fallback_rate": 0.0,
+          "telemetry_events": 18,
+          "response_sources": {
+            "deterministic": 18
+          }
+        },
+        "unsupported_method": {
+          "requests": 16,
+          "completed": 16,
+          "distinct_bodies": 1,
+          "throttled_429": 0,
+          "functional_completed": 16,
+          "distinct_bodies_per_100_requests": 6.25,
+          "fallback_rate": 0.0,
+          "telemetry_events": 16,
+          "response_sources": {
+            "deterministic": 16
+          }
+        },
+        "operational_unavailable": {
+          "requests": 16,
+          "completed": 16,
+          "distinct_bodies": 1,
+          "throttled_429": 0,
+          "functional_completed": 16,
+          "distinct_bodies_per_100_requests": 6.25,
+          "fallback_rate": 0.0,
+          "telemetry_events": 16,
+          "response_sources": {
+            "deterministic": 16
+          }
+        }
+      },
+      "clients": 4,
+      "mode_label": "off",
+      "correlation": "psz-bench-81b9d0ac08474a709820706e1a6b8d60"
+    },
+    {
+      "telemetry_coverage": {
+        "complete": true,
+        "invalid_rows": [],
+        "deferred_bytes": 0
+      },
+      "telemetry_input_problem": false,
+      "requests": 100,
+      "completed": 100,
+      "failures": 0,
+      "p50_s": 0.007453057000020635,
+      "p95_s": 0.011299772000029407,
+      "status_counts": {
+        "404": 50,
+        "401": 18,
+        "405": 16,
+        "403": 16
+      },
+      "throttled_429": 0,
+      "functional_completed": 100,
+      "functional_p50_s": 0.007453057000020635,
+      "functional_p95_s": 0.011299772000029407,
+      "max_s": 1.018180314999995,
+      "deadline_misses_4s": 0,
+      "forbidden_responses": 0,
+      "credential_responses": 0,
+      "memo_mismatches": 0,
+      "status_mismatches": 0,
+      "by_kind": {
+        "unknown_path": {
+          "requests": 50,
+          "completed": 50,
+          "distinct_bodies": 1,
+          "throttled_429": 0,
+          "functional_completed": 50,
+          "distinct_bodies_per_100_requests": 2.0,
+          "fallback_rate": 0.0,
+          "telemetry_events": 50,
+          "response_sources": {
+            "deterministic": 50
+          }
+        },
+        "rejected_form": {
+          "requests": 18,
+          "completed": 18,
+          "distinct_bodies": 1,
+          "throttled_429": 0,
+          "functional_completed": 18,
+          "distinct_bodies_per_100_requests": 5.555555555555555,
+          "fallback_rate": 0.0,
+          "telemetry_events": 18,
+          "response_sources": {
+            "deterministic": 18
+          }
+        },
+        "unsupported_method": {
+          "requests": 16,
+          "completed": 16,
+          "distinct_bodies": 1,
+          "throttled_429": 0,
+          "functional_completed": 16,
+          "distinct_bodies_per_100_requests": 6.25,
+          "fallback_rate": 0.0,
+          "telemetry_events": 16,
+          "response_sources": {
+            "deterministic": 16
+          }
+        },
+        "operational_unavailable": {
+          "requests": 16,
+          "completed": 16,
+          "distinct_bodies": 1,
+          "throttled_429": 0,
+          "functional_completed": 16,
+          "distinct_bodies_per_100_requests": 6.25,
+          "fallback_rate": 0.0,
+          "telemetry_events": 16,
+          "response_sources": {
+            "deterministic": 16
+          }
+        }
+      },
+      "clients": 8,
+      "mode_label": "off",
+      "correlation": "psz-bench-f8cf052a5d634c05aa58f74706e68140"
+    }
+  ]
+}

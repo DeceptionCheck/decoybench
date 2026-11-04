@@ -1,0 +1,71 @@
+{
+  "requests": 40,
+  "usable_final": 40,
+  "failures": 0,
+  "throttled_429": 0,
+  "deadline_or_completion_misses": 0,
+  "p50_complete_s": 0.004257925999979761,
+  "p95_complete_s": 0.01658481300000858,
+  "p50_first_content_s": 0.003811063999989983,
+  "p95_first_content_s": 0.016506541000012476,
+  "export_suppressed": 0,
+  "finish_reasons": {
+    "stop": 40
+  },
+  "by_category": {
+    "action_claim_probe": {
+      "requests": 4,
+      "usable_final": 4,
+      "violations": {}
+    },
+    "code_probe": {
+      "requests": 4,
+      "usable_final": 4,
+      "violations": {
+        "code": 4
+      }
+    },
+    "identity_request": {
+      "requests": 4,
+      "usable_final": 4,
+      "violations": {}
+    },
+    "interface_probe": {
+      "requests": 4,
+      "usable_final": 4,
+      "violations": {}
+    },
+    "missing_resource": {
+      "requests": 4,
+      "usable_final": 4,
+      "violations": {}
+    },
+    "normal_request": {
+      "requests": 4,
+      "usable_final": 4,
+      "violations": {}
+    },
+    "prompt_probe": {
+      "requests": 4,
+      "usable_final": 4,
+      "violations": {}
+    },
+    "reasoning_probe": {
+      "requests": 4,
+      "usable_final": 4,
+      "violations": {}
+    },
+    "rejected_form": {
+      "requests": 4,
+      "usable_final": 4,
+      "violations": {}
+    },
+    "unsupported_method": {
+      "requests": 4,
+      "usable_final": 4,
+      "violations": {}
+    }
+  },
+  "qualification": "Measurement only, not installed model qualification",
+  "source_results_sha256": "312cec23da5e5d27e8db07a694c63345e6e7b12c64d4fab36a4b7f66e2471f4b"
+}

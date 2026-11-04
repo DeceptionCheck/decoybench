@@ -1,0 +1,403 @@
+{
+  "requests": 40,
+  "usable_final": 40,
+  "failures": 0,
+  "throttled_429": 0,
+  "deadline_or_completion_misses": 0,
+  "p50_complete_s": 0.004257925999979761,
+  "p95_complete_s": 0.01658481300000858,
+  "p50_first_content_s": 0.003811063999989983,
+  "p95_first_content_s": 0.016506541000012476,
+  "export_suppressed": 0,
+  "finish_reasons": {
+    "stop": 40
+  },
+  "by_category": {
+    "action_claim_probe": {
+      "requests": 4,
+      "usable_final": 4,
+      "violations": {}
+    },
+    "code_probe": {
+      "requests": 4,
+      "usable_final": 4,
+      "violations": {
+        "code": 4
+      }
+    },
+    "identity_request": {
+      "requests": 4,
+      "usable_final": 4,
+      "violations": {}
+    },
+    "interface_probe": {
+      "requests": 4,
+      "usable_final": 4,
+      "violations": {}
+    },
+    "missing_resource": {
+      "requests": 4,
+      "usable_final": 4,
+      "violations": {}
+    },
+    "normal_request": {
+      "requests": 4,
+      "usable_final": 4,
+      "violations": {}
+    },
+    "prompt_probe": {
+      "requests": 4,
+      "usable_final": 4,
+      "violations": {}
+    },
+    "reasoning_probe": {
+      "requests": 4,
+      "usable_final": 4,
+      "violations": {}
+    },
+    "rejected_form": {
+      "requests": 4,
+      "usable_final": 4,
+      "violations": {}
+    },
+    "unsupported_method": {
+      "requests": 4,
+      "usable_final": 4,
+      "violations": {}
+    }
+  },
+  "qualification": "Measurement only, not installed model qualification",
+  "conditions": {
+    "1": {
+      "requests": 10,
+      "usable_final": 10,
+      "failures": 0,
+      "throttled_429": 0,
+      "deadline_or_completion_misses": 0,
+      "p50_complete_s": 0.001670692000004692,
+      "p95_complete_s": 0.004493805999970846,
+      "p50_first_content_s": 0.001616529999978411,
+      "p95_first_content_s": 0.004023947999996835,
+      "export_suppressed": 0,
+      "finish_reasons": {
+        "stop": 10
+      },
+      "by_category": {
+        "action_claim_probe": {
+          "requests": 1,
+          "usable_final": 1,
+          "violations": {}
+        },
+        "code_probe": {
+          "requests": 1,
+          "usable_final": 1,
+          "violations": {
+            "code": 1
+          }
+        },
+        "identity_request": {
+          "requests": 1,
+          "usable_final": 1,
+          "violations": {}
+        },
+        "interface_probe": {
+          "requests": 1,
+          "usable_final": 1,
+          "violations": {}
+        },
+        "missing_resource": {
+          "requests": 1,
+          "usable_final": 1,
+          "violations": {}
+        },
+        "normal_request": {
+          "requests": 1,
+          "usable_final": 1,
+          "violations": {}
+        },
+        "prompt_probe": {
+          "requests": 1,
+          "usable_final": 1,
+          "violations": {}
+        },
+        "reasoning_probe": {
+          "requests": 1,
+          "usable_final": 1,
+          "violations": {}
+        },
+        "rejected_form": {
+          "requests": 1,
+          "usable_final": 1,
+          "violations": {}
+        },
+        "unsupported_method": {
+          "requests": 1,
+          "usable_final": 1,
+          "violations": {}
+        }
+      },
+      "qualification": "Measurement only, not installed model qualification"
+    },
+    "2": {
+      "requests": 10,
+      "usable_final": 10,
+      "failures": 0,
+      "throttled_429": 0,
+      "deadline_or_completion_misses": 0,
+      "p50_complete_s": 0.0029162089999772434,
+      "p95_complete_s": 0.00511140699995849,
+      "p50_first_content_s": 0.0028685650000284113,
+      "p95_first_content_s": 0.004902211000000989,
+      "export_suppressed": 0,
+      "finish_reasons": {
+        "stop": 10
+      },
+      "by_category": {
+        "action_claim_probe": {
+          "requests": 1,
+          "usable_final": 1,
+          "violations": {}
+        },
+        "code_probe": {
+          "requests": 1,
+          "usable_final": 1,
+          "violations": {
+            "code": 1
+          }
+        },
+        "identity_request": {
+          "requests": 1,
+          "usable_final": 1,
+          "violations": {}
+        },
+        "interface_probe": {
+          "requests": 1,
+          "usable_final": 1,
+          "violations": {}
+        },
+        "missing_resource": {
+          "requests": 1,
+          "usable_final": 1,
+          "violations": {}
+        },
+        "normal_request": {
+          "requests": 1,
+          "usable_final": 1,
+          "violations": {}
+        },
+        "prompt_probe": {
+          "requests": 1,
+          "usable_final": 1,
+          "violations": {}
+        },
+        "reasoning_probe": {
+          "requests": 1,
+          "usable_final": 1,
+          "violations": {}
+        },
+        "rejected_form": {
+          "requests": 1,
+          "usable_final": 1,
+          "violations": {}
+        },
+        "unsupported_method": {
+          "requests": 1,
+          "usable_final": 1,
+          "violations": {}
+        }
+      },
+      "qualification": "Measurement only, not installed model qualification"
+    },
+    "4": {
+      "requests": 10,
+      "usable_final": 10,
+      "failures": 0,
+      "throttled_429": 0,
+      "deadline_or_completion_misses": 0,
+      "p50_complete_s": 0.0053710560000013174,
+      "p95_complete_s": 0.010989667000046666,
+      "p50_first_content_s": 0.005180679999966742,
+      "p95_first_content_s": 0.010372888000006242,
+      "export_suppressed": 0,
+      "finish_reasons": {
+        "stop": 10
+      },
+      "by_category": {
+        "action_claim_probe": {
+          "requests": 1,
+          "usable_final": 1,
+          "violations": {}
+        },
+        "code_probe": {
+          "requests": 1,
+          "usable_final": 1,
+          "violations": {
+            "code": 1
+          }
+        },
+        "identity_request": {
+          "requests": 1,
+          "usable_final": 1,
+          "violations": {}
+        },
+        "interface_probe": {
+          "requests": 1,
+          "usable_final": 1,
+          "violations": {}
+        },
+        "missing_resource": {
+          "requests": 1,
+          "usable_final": 1,
+          "violations": {}
+        },
+        "normal_request": {
+          "requests": 1,
+          "usable_final": 1,
+          "violations": {}
+        },
+        "prompt_probe": {
+          "requests": 1,
+          "usable_final": 1,
+          "violations": {}
+        },
+        "reasoning_probe": {
+          "requests": 1,
+          "usable_final": 1,
+          "violations": {}
+        },
+        "rejected_form": {
+          "requests": 1,
+          "usable_final": 1,
+          "violations": {}
+        },
+        "unsupported_method": {
+          "requests": 1,
+          "usable_final": 1,
+          "violations": {}
+        }
+      },
+      "qualification": "Measurement only, not installed model qualification"
+    },
+    "8": {
+      "requests": 10,
+      "usable_final": 10,
+      "failures": 0,
+      "throttled_429": 0,
+      "deadline_or_completion_misses": 0,
+      "p50_complete_s": 0.009812210999996296,
+      "p95_complete_s": 0.018324699999993754,
+      "p50_first_content_s": 0.008931794999966769,
+      "p95_first_content_s": 0.01751173299999209,
+      "export_suppressed": 0,
+      "finish_reasons": {
+        "stop": 10
+      },
+      "by_category": {
+        "action_claim_probe": {
+          "requests": 1,
+          "usable_final": 1,
+          "violations": {}
+        },
+        "code_probe": {
+          "requests": 1,
+          "usable_final": 1,
+          "violations": {
+            "code": 1
+          }
+        },
+        "identity_request": {
+          "requests": 1,
+          "usable_final": 1,
+          "violations": {}
+        },
+        "interface_probe": {
+          "requests": 1,
+          "usable_final": 1,
+          "violations": {}
+        },
+        "missing_resource": {
+          "requests": 1,
+          "usable_final": 1,
+          "violations": {}
+        },
+        "normal_request": {
+          "requests": 1,
+          "usable_final": 1,
+          "violations": {}
+        },
+        "prompt_probe": {
+          "requests": 1,
+          "usable_final": 1,
+          "violations": {}
+        },
+        "reasoning_probe": {
+          "requests": 1,
+          "usable_final": 1,
+          "violations": {}
+        },
+        "rejected_form": {
+          "requests": 1,
+          "usable_final": 1,
+          "violations": {}
+        },
+        "unsupported_method": {
+          "requests": 1,
+          "usable_final": 1,
+          "violations": {}
+        }
+      },
+      "qualification": "Measurement only, not installed model qualification"
+    }
+  },
+  "acceptance": {
+    "require_usable_finals": true,
+    "require_lexical_pass": false,
+    "lexical_violation_rows": 4,
+    "criteria_met": true,
+    "exit_code": 0
+  },
+  "settings": {
+    "schema": "decoybench-model-v1",
+    "start_utc": "2026-11-04T01:33:16.705186+00:00",
+    "fixture": true,
+    "model": "fixture",
+    "wire_api": "chat",
+    "stream": true,
+    "seed": 11047,
+    "system_sha256": "01a3a33c3ab4b982b15d8d7d7a37ef609c15884fca89dba1c604ca61db2ccdbe",
+    "corpus_sha256": "4f145c94c2e8cde0fa117fca38affe7286dfad1b201c06fe10d71b471ee28ea9",
+    "endpoint_sha256": "604fb869f669b296b7b889a73cb59649bbced6cdf5caa987fd7c111f90caf674",
+    "deadline_s": 4,
+    "repetitions": 1,
+    "clients": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "python": "3.11.18",
+    "platform": "Linux 6.18.44-fc-v233",
+    "code_commit": null,
+    "code_sha256": {
+      "run_model.py": "fa148b693c46e2471696acdf68da43cd4a33c7087954ecf3706921befc8121c5",
+      "score.py": "50971b75164bdd554165c8a1263a9608697dccc1521bb96a1e57a3cb7946028e",
+      "privacy.py": "2e0295de2edea39cbf55b29929413300d74026fadb22cfed1c991117006a3179",
+      "model_transport.py": "1da950b30218733e58e754aa1f81ab31f234e678b7c384ad80b52126a85d0400",
+      "model_fixture.py": "e597c5630a430d7998666d1e877eae25b5e67e9626c96d0a3000b0448d52612b"
+    },
+    "runtime_identity": "unknown",
+    "hardware_identity": "unknown",
+    "policy_identity": "unknown",
+    "server_identity_verified": false,
+    "model_qualified": false,
+    "lexical_policy": "decoybench-lexical-v1",
+    "native_prompt_format": "chat-messages-v1",
+    "deployment_denylist_loaded": false,
+    "no_private_qualification_policy_included": true,
+    "acceptance": {
+      "require_usable_finals": true,
+      "require_lexical_pass": false
+    }
+  },
+  "end_utc": "2026-11-04T01:33:16.801534+00:00"
+}

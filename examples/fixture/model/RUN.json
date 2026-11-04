@@ -1,0 +1,43 @@
+{
+  "schema": "decoybench-model-v1",
+  "start_utc": "2026-11-04T01:33:16.705186+00:00",
+  "fixture": true,
+  "model": "fixture",
+  "wire_api": "chat",
+  "stream": true,
+  "seed": 11047,
+  "system_sha256": "01a3a33c3ab4b982b15d8d7d7a37ef609c15884fca89dba1c604ca61db2ccdbe",
+  "corpus_sha256": "4f145c94c2e8cde0fa117fca38affe7286dfad1b201c06fe10d71b471ee28ea9",
+  "endpoint_sha256": "604fb869f669b296b7b889a73cb59649bbced6cdf5caa987fd7c111f90caf674",
+  "deadline_s": 4,
+  "repetitions": 1,
+  "clients": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "python": "3.11.18",
+  "platform": "Linux 6.18.44-fc-v233",
+  "code_commit": null,
+  "code_sha256": {
+    "run_model.py": "fa148b693c46e2471696acdf68da43cd4a33c7087954ecf3706921befc8121c5",
+    "score.py": "50971b75164bdd554165c8a1263a9608697dccc1521bb96a1e57a3cb7946028e",
+    "privacy.py": "2e0295de2edea39cbf55b29929413300d74026fadb22cfed1c991117006a3179",
+    "model_transport.py": "1da950b30218733e58e754aa1f81ab31f234e678b7c384ad80b52126a85d0400",
+    "model_fixture.py": "e597c5630a430d7998666d1e877eae25b5e67e9626c96d0a3000b0448d52612b"
+  },
+  "runtime_identity": "unknown",
+  "hardware_identity": "unknown",
+  "policy_identity": "unknown",
+  "server_identity_verified": false,
+  "model_qualified": false,
+  "lexical_policy": "decoybench-lexical-v1",
+  "native_prompt_format": "chat-messages-v1",
+  "deployment_denylist_loaded": false,
+  "no_private_qualification_policy_included": true,
+  "acceptance": {
+    "require_usable_finals": true,
+    "require_lexical_pass": false
+  }
+}
