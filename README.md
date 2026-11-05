@@ -1,6 +1,28 @@
 # DecoyBench
 
-> **This is the Sol implementation of DecoyBench, release R6** (repository `decoybench-sol`). Two other independent implementations share the DecoyBench name: Opus's 0.2.1 and Muse's. They are separate projects with different commands and result formats. This one runs from its source folder (`python -m bench...`) and installs nothing; keep each implementation in its own folder or virtual environment.
+**An open harness for measuring whether a language model can serve as a decoy: complete usable replies, latency against a deadline, fallback, and failure, with a deterministic row for comparison.** This is the reference implementation, release R6. Two alternate implementations built from the same specification and tests are published separately as [decoybench-alt-a](https://github.com/DeceptionCheck/decoybench-alt-a) and [decoybench-alt-b](https://github.com/DeceptionCheck/decoybench-alt-b); they have different commands and result formats, so keep each in its own folder.
+
+Built for the Meta Global AI Developer Hackathon, November 2026, by Deception Check, Inc.
+
+## Submission links
+
+| | |
+|---|---|
+| Demo video | https://youtu.be/c8zRYXETCEo |
+| Hosted demo, limited-time judge access | https://meta.deceptioncheck.ai |
+| Research report with the results tables and the model program | https://meta.deceptioncheck.ai/research/DecoyBench-Report.html |
+| The decoy this harness was built to measure (AGPL-3.0) | https://github.com/DeceptionCheck/pump-station-zero-community |
+
+## What it measures
+
+- **Checks on every reply, rules first:** persona break, prompt leak, reasoning leak, code output, operational instruction, action or telemetry claim, invented interface, length.
+- **Latency at a stated boundary:** first visible token, complete reply, deadline misses at four seconds, and, from a second machine, send to last byte against an installed decoy.
+- **Concurrency:** 1, 2, 4, and 8 offered clients.
+- **The deterministic row:** the same requests served by fixed content, measured the same way. Model-correct, accepted by the validator, and served after fallback are always three separate columns.
+
+Fixture runs contain no inference; a green exit alone is not proof that a model answered. The report linked above has the real-model rows (raw request text against typed task, the matched head-to-head, the counterbalanced confirmation, and the installed path) with the misses beside the wins.
+
+## Quick start
 
 Measure complete usable model replies and a decoy's installed ingress. Python
 3.11 or newer, standard library only. Start without a model:
@@ -17,7 +39,7 @@ command requires40/40 usable finals, not lexical cleanliness. Add
 --fail-on-violation to reject those intentional findings. Default exit0 alone
 is not proof of successful replies.
 
-See bench/README.md for real endpoint commands, corpus schema, timing and
+The starter corpus in `bench/corpus/v1.0/` is a ten-prompt sample; the sanitized full corpus follows in a later release. See bench/README.md for real endpoint commands, corpus schema, timing and
 privacy rules, throttling and known lexical false positives/negatives.
 Fixture measurements are not model qualification. License: MIT ([LICENSE](LICENSE),
 [NOTICE.md](NOTICE.md)). Security and limitations: [SECURITY.md](SECURITY.md).

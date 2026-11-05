@@ -1,6 +1,6 @@
 # Notice
 
-DecoyBench (Sol implementation, R6)
+DecoyBench (reference implementation, R6)
 Copyright (c) 2026 Deception Check, Inc.
 
 Licensed under the MIT License; see [LICENSE](LICENSE). The license covers the files in this repository only.
