@@ -4,6 +4,10 @@
 
 Built for the Meta Global AI Developer Hackathon, November 2026, by Deception Check, Inc.
 
+## Development attribution
+
+Sol assisted this reference R6 implementation. Opus assisted [alternative A](https://github.com/DeceptionCheck/decoybench-alt-a). Muse / Meta Spark 1.3 assisted [alternative B](https://github.com/DeceptionCheck/decoybench-alt-b). All were developed under Deception Check’s direction. These are coding credits, not claims that fixture runs invoke these models.
+
 ## Submission links
 
 | | |
@@ -43,4 +47,3 @@ The starter corpus in `bench/corpus/v1.0/` is a ten-prompt sample; the sanitized
 privacy rules, throttling and known lexical false positives/negatives.
 Fixture measurements are not model qualification. License: MIT ([LICENSE](LICENSE),
 [NOTICE.md](NOTICE.md)). Security and limitations: [SECURITY.md](SECURITY.md).
-Example output: [examples/](examples/).
